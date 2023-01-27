@@ -8,26 +8,85 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: var(--cor3);
 }
 
 :root{
     --cor1: #F77D0B;
     --cor2: #F5BD3C;
-    --cor3: #F5BD3C;
+    --cor3: #1B1C40;
     --cor4: white;
 
-    --fontepadarao: "Naruto";
+    --fontepadrao: "Naruto";
+    --fonteparagrafo: 
 }
 
 header{
     background-image:linear-gradient( to bottom, var(--cor1), var(--cor2));
-    font-family: var(--fontepadarao);
+    font-family: var(--fontepadrao);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
+    text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.384);
+    font-weight: bold;
+    
 }
 
 h1{
-    font-size: 3em;
-    padding-bottom: 20px;
+    font-size: 4em;
+    padding-bottom: 5px;
+}
+
+header > p{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-family: var(--fontepadrao);
+}
+
+aside > p{
+    font-size: 1em;
+    text-align: left;
+    padding: 0px 0px 8px 8px ;
+}
+
+aside > p > a{
+    text-decoration: none;
+    color: var(--cor4);
+
+}
+
+aside > p > a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+main{
+    margin: auto;
+    min-width: 230px;
+    max-width: 865px;
+    background-color: var(--cor4);
+    border-radius: 10px;
+}
+
+section{
+    padding: 20px;
+    text-align: justify;
+    
+}
+
+section > h2{
+    background-image: linear-gradient( to right, var(--cor3), transparent);
+    font-size: 2em;
+    padding-bottom: 5px;
+    color: var(--cor1);
+}
+
+p.episodios{
+    padding: 5px 0px 20px 0px;
+    text-indent: 0px;
+    padding-top: 10px;
+}
+
+section > p {
+    text-indent: 10px;
 }
