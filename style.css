@@ -1,19 +1,33 @@
 @charset "UTF8";
  @font-face {
     font-family: "Naruto";
-    src: url(../site-teste/fontes/NinjaNaruto-YOn4.ttf);
+    src: url('../fontes/Happy\ Holiday.ttf');
  }
 *{
     margin: 0px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 :root{
     --cor1: #F77D0B;
     --cor2: #F5BD3C;
     --cor3: #F5BD3C;
+    --cor4: white;
 
     --fontepadarao: "Naruto";
+}
+
+header{
+    background-image:linear-gradient( to bottom, var(--cor1), var(--cor2));
+    font-family: var(--fontepadarao);
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 3em;
+    padding-bottom: 20px;
 }
