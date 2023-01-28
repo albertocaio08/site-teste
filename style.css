@@ -74,7 +74,7 @@ section{
     
 }
 
-section > h2{
+h2{
     background-image: linear-gradient( to right, var(--cor3), transparent);
     font-size: 2em;
     padding-bottom: 5px;
