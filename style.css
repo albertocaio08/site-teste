@@ -27,7 +27,7 @@ header{
     background-image:linear-gradient( to bottom, var(--cor1), var(--cor2));
     font-family: var(--fontepadrao);
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.384);
     font-weight: bold;
     
@@ -40,7 +40,7 @@ h1{
 
 header > p{
     font-size: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     font-family: var(--fontepadrao);
 }
 
@@ -104,7 +104,7 @@ p.episodios{
 section > p {
     font-size: 1.1em;
     text-indent: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     max-height: 800px;
 }
 
@@ -116,7 +116,7 @@ section#imagem{
 }
 
 section#imagem > p{
-    background-color: rgba(0, 0, 255, 0.334);
+    background-color: rgba(0, 0, 255, 0.229);
     color: white;
     text-shadow: 2px 2px 0px black;
     font-weight: bold;
