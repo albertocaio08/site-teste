@@ -4,13 +4,7 @@
     src: url('../fontes/Happy\ Holiday.ttf');
  }
 *{
-    margin: 0px;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor5);
-    min-height: 100vh;
-}
+    margin: 0px;}
 
 :root{
     --cor1: #F77D0B;
@@ -21,6 +15,12 @@ body{
 
     --fontepadrao: "Naruto";
     --fonteparagrafo: 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor5);
+    min-height: 100vh;
 }
 
 header{
@@ -67,13 +67,14 @@ main{
     min-width: 230px;
     max-width: 865px;
     background-color: var(--cor4);
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 section{
     padding: 20px 20px 20px 10px;
     text-align: justify;
-    
     line-height: 1.5em;
    
 }
@@ -83,6 +84,10 @@ h2{
     font-size: 2em;
     color: var(--cor1);
     margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.384);
 }
 
 p.topo{
@@ -97,19 +102,94 @@ p.episodios{
 }
 
 section > p {
+    font-size: 1.1em;
     text-indent: 10px;
     padding-bottom: 20px;
+    max-height: 800px;
 }
 
 section#imagem{
-    background-color: #F5BD3C;
     background-size: contain;
     background-attachment: fixed;
+    background-color: var(--cor3);
+    min-height: 500px;
+}
 
+section#imagem > p{
+    background-color: rgba(0, 0, 255, 0.334);
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
 }
 
 section.t1{
     background-image: url(imagens/naruto-1temporada.webp);
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+section.t2{
+    background-image: url(imagens/naruto-2temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t3{
+    background-image: url(imagens/naruto-3temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t4{
+    background-image: url(imagens/naruto-4temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t5{
+    background-image: url(imagens/naruto-5temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t6{
+    background-image: url(imagens/naruto-6temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t7{
+    background-image: url(imagens/naruto-7temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t8{
+    background-image: url(imagens/naruto-8temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.t9{
+    background-image: url(imagens/naruto-9temporada.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    font-size: 1.2em;
+    background-image:linear-gradient( to bottom, var(--cor1), var(--cor2)); 
+    padding: 15px;
+    text-align: center;
+    text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.384);
+}
+footer > a{
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+footer > a:hover{
+    text-decoration: underline;
+    color:blue;;
 }
