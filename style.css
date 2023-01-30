@@ -9,6 +9,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor5);
+    min-height: 100vh;
 }
 
 :root{
@@ -73,6 +74,8 @@ section{
     padding: 20px 20px 20px 10px;
     text-align: justify;
     
+    line-height: 1.5em;
+   
 }
 
 h2{
@@ -90,6 +93,7 @@ p.episodios{
     padding: 5px 0px 20px 0px;
     text-indent: 0px;
     padding-top: 30px;
+
 }
 
 section > p {
@@ -99,11 +103,13 @@ section > p {
 
 section#imagem{
     background-color: #F5BD3C;
+    background-size: contain;
+    background-attachment: fixed;
+
 }
 
 section.t1{
     background-image: url(imagens/naruto-1temporada.webp);
     background-position: center center;
     background-repeat: no-repeat;
-    width: 50%vw;
 }
